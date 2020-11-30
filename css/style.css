@@ -1,0 +1,89 @@
+.content {
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 4px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: .5px 1px rgb(201, 201, 201);
+}
+
+.input {
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+}
+
+#calcDisplay {
+    width: 236px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgb(201, 201, 201);
+    box-shadow: .5px 1px rgb(201, 201, 201);
+    
+}
+
+.operations {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2px 5px;
+
+}
+
+.operations > div {
+    align-self: stretch;
+    
+}
+
+.operationButton, .number {
+    box-sizing: border-box;
+    width: 55px;
+    font-size: 2rem;
+    border: none;
+    box-shadow: .5px 1px rgb(201, 201, 201);
+
+}
+.operationButton {
+    background-color: rgb(214, 214, 214);
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 4px;
+    color: rgb(95, 95, 95);
+}
+
+.allOfNumbers {
+    display: inline;
+
+}
+.numbersFirstRow, .numbersSecondRow, .numbersThirdRow, .numbersFourthRow {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 71.5%;
+    padding: 4px 5px 3px 5px;
+    
+}
+.numbersFirstRow, .numbersSecondRow, .numbersThirdRow, .numbersFourthRow > div {
+    align-self: stretch;
+}
+
+.number {
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 4px;
+    color: rgb(95, 95, 95);
+}
+.equals {
+    width: 20%;
+    display: inline-flex;
+    background-color: rgb(49, 109, 187);
+    border: 1px solid rgb(35, 81, 141);
+    border-radius: 4px;
+}
+.equal {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 0px 16px;
+    border-style: none;
+    color: rgb(209, 209, 209);
+    font-size: 2rem;
+}
